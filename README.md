@@ -13,13 +13,6 @@ Black Dashboard React comes packed with all plugins that you might need inside a
 Black Dashboard React features over 16 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. All components can take variations in color, that you can easily modify using SASS files. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
 We thought about everything, so this dashboard comes with 2 versions, Dark Mode and Light Mode.
 
-Special thanks go for the owners of these plugins:
-- [Perfect Scrollbar](http://utatti.github.io/perfect-scrollbar/) for the nice scrollbars for windows.
-- [React Chartjs](http://jerairrest.github.io/react-chartjs-2/) for the wonderful wrapper for charts.
-- [Chartjs](https://www.chartjs.org/) for the wonderful charts.
-
-We are very excited to share this dashboard with you and we look forward to hearing your feedback!
-
 **Example Pages** We wanted to fully display the power of this dashboard, so the kit comes packed with examples showing you how to use the components.
 
 ## Table of Contents
@@ -54,15 +47,6 @@ We are very excited to share this dashboard with you and we look forward to hear
 | [![Start page](./github-assets/dashboard-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/dashboard) | [![User profile page](./github-assets/user-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/user-page) | [![Tables page ](./github-assets/table-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/table-list) | [![Maps Page](./github-assets/maps-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/maps) | [![Notification page](./github-assets/notifications-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/notifications)
 
 [View More](https://demos.creative-tim.com/black-dashboard-react/#/dashboard).
-
-
-## Quick start
-
-Quick start options:
-
-- Clone the repo: `git clone https://github.com/creativetimofficial/black-dashboard-react.git`.
-- [Download from Github](https://github.com/creativetimofficial/black-dashboard-react/archive/master.zip).
-- [Download from Creative Tim](https://www.creative-tim.com/product/black-dashboard-react).
 
 
 ## Documentation
@@ -145,12 +129,9 @@ At present, we officially aim to support the last two versions of the following 
 
 
 ## Resources
-- Demo: https://demos.creative-tim.com/black-dashboard-react/#/dashboard
-- Download Page: https://www.creative-tim.com/product/black-dashboard-react
 - Documentation: https://demos.creative-tim.com/black-dashboard-react/#/documentation/tutorial
 - License Agreement: https://www.creative-tim.com/license
 - Support: https://www.creative-tim.com/contact-us
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/black-dashboard-react/issues)
 
 ## Reporting Issues
 We use GitHub Issues as the official bug tracker for the Black Dashboard React. Here are some advices for our users that want to report an issue:
@@ -168,24 +149,3 @@ If you have questions or need help integrating the product please [contact us](h
 - Copyright 2018 Creative Tim (https://www.creative-tim.com)
 - Licensed under MIT (https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md)
 
-## Useful Links
-
-More products from Creative Tim: <https://www.creative-tim.com/products>
-
-Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
-
-Freebies: <https://www.creative-tim.com/products>
-
-Affiliate Program (earn money): <https://www.creative-tim.com/affiliates/new>
-
-Social Media:
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
