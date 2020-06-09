@@ -136,7 +136,7 @@ class AdminNavbar extends React.Component {
                     <i className="tim-icons icon-sound-wave" />
                     <p className="d-lg-none">Notifications</p>
                   </DropdownToggle>
-                  <FixedPlugin ></FixedPlugin>
+                  {/* <FixedPlugin ></FixedPlugin> */}
                 </UncontrolledDropdown>
                 <UncontrolledDropdown nav>
                   <DropdownToggle
