@@ -38,7 +38,7 @@ class Sidebar extends React.Component {
     document.documentElement.classList.remove("nav-open");
   };
   render() {
-    const { bgColor, routes, rtlActive, logo } = this.props;
+    const { bgColor, routes, logo } = this.props;
     let logoImg = null;
     let logoText = null;
     if (logo !== undefined) {
@@ -103,8 +103,7 @@ class Sidebar extends React.Component {
               return (
                 <li
                   className={
-                    this.activeRoute(prop.path) +
-                    (prop.pro ? " active-pro" : "")
+                    this.activeRoute(prop.path)
                   }
                   key={key}
                 >
@@ -115,7 +114,7 @@ class Sidebar extends React.Component {
                     onClick={this.props.toggleSidebar}
                   >
                     <i className={prop.icon} />
-                    <p>{rtlActive ? prop.rtlName : prop.name}</p>
+                    <p>{prop.name}</p>
                   </NavLink>
                 </li>
               );
@@ -132,15 +131,13 @@ class Sidebar extends React.Component {
 }
 
 Sidebar.defaultProps = {
-  rtlActive: false,
   bgColor: "primary",
   routes: [{}]
 };
 
 Sidebar.propTypes = {
-  // if true, then instead of the routes[i].name, routes[i].rtlName will be rendered
+  // if true, then instead of the routes[i].name, will be rendered
   // insde the links of this component
-  rtlActive: PropTypes.bool,
   bgColor: PropTypes.oneOf(["primary", "blue", "green"]),
   routes: PropTypes.arrayOf(PropTypes.object),
   logo: PropTypes.shape({
