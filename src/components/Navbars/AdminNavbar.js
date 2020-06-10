@@ -1,7 +1,8 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-import FixedPlugin from "components/FixedPlugin/FixedPlugin";
+
+// import FixedPlugin from "components/FixedPlugin/FixedPlugin";
 
 // reactstrap components
 import {
@@ -136,7 +137,7 @@ class AdminNavbar extends React.Component {
                     <i className="tim-icons icon-sound-wave" />
                     <p className="d-lg-none">Notifications</p>
                   </DropdownToggle>
-                  <FixedPlugin ></FixedPlugin>
+                  {/* <FixedPlugin ></FixedPlugin> */}
                 </UncontrolledDropdown>
                 <UncontrolledDropdown nav>
                   <DropdownToggle
@@ -147,7 +148,7 @@ class AdminNavbar extends React.Component {
                     onClick={e => e.preventDefault()}
                   >
                     <div className="photo">
-                      <img alt="..." src={require("assets/img/anime3.png")} />
+                      <img alt="..." src={require("assets/img/catty-profile.png")} />
                     </div>
                     <b className="caret d-none d-lg-block d-xl-block" />
                     <p className="d-lg-none">Log out</p>
