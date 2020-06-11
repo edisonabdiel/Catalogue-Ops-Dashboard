@@ -55,7 +55,7 @@ class Dashboard extends React.Component {
                   <Row>
                     <Col className="text-left" sm="6">
                       <h5 className="card-category">Priority Profiles Aggregate</h5>
-                      <CardTitle tag="h4">Performance</CardTitle>
+                      <CardTitle tag="h4"><i className="tim-icons icon-molecule-40 text-info"/>{" "}Performance</CardTitle>
                     </Col>
                     <Col sm="6">
                       <ButtonGroup
@@ -129,7 +129,7 @@ class Dashboard extends React.Component {
                             <i className="tim-icons icon-tap-02" />
                           </span>
                         </Button>
-                        <Button
+                        {/* <Button
                           color="info"
                           id="2"
                           size="sm"
@@ -150,7 +150,7 @@ class Dashboard extends React.Component {
                           <span className="d-block d-sm-none">
                             <i className="tim-icons icon-tap-02" />
                           </span>
-                        </Button>
+                        </Button> */}
                       </ButtonGroup>
                     </Col>
                   </Row>
@@ -167,13 +167,13 @@ class Dashboard extends React.Component {
             </Col>
           </Row>
           <Row>
-            <Col lg="4">
+            <Col lg="6">
               <Card className="card-chart">
                 <CardHeader>
-                  <h5 className="card-category">Total Shipments</h5>
+                  <h5 className="card-category">Total Mis-Ingested</h5>
                   <CardTitle tag="h3">
                     <i className="tim-icons icon-bell-55 text-info" />{" "}
-                    763,215
+                    7,215
                   </CardTitle>
                 </CardHeader>
                 <CardBody>
@@ -186,13 +186,13 @@ class Dashboard extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-            <Col lg="4">
+            <Col lg="6">
               <Card className="card-chart">
                 <CardHeader>
-                  <h5 className="card-category">Daily Sales</h5>
+                  <h5 className="card-category">Mapping</h5>
                   <CardTitle tag="h3">
                     <i className="tim-icons icon-delivery-fast text-primary" />{" "}
-                    3,500€
+                    35,000
                   </CardTitle>
                 </CardHeader>
                 <CardBody>
@@ -205,12 +205,12 @@ class Dashboard extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-            <Col lg="4">
+            <Col lg="12">
               <Card className="card-chart">
                 <CardHeader>
-                  <h5 className="card-category">Completed Tasks</h5>
+                  <h5 className="card-category">Sprint</h5>
                   <CardTitle tag="h3">
-                    <i className="tim-icons icon-send text-success" /> 12,100K
+                    <i className="tim-icons icon-chart-bar-32 text-success" /> 12,100K
                   </CardTitle>
                 </CardHeader>
                 <CardBody>

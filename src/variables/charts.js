@@ -352,7 +352,7 @@ const chartExample4 = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [90, 27, 60, 12, 80]
+          data: [90, 27, 60, 12, 80, 13, 56, 20, 90, 84, 40, 20]
         }
       ]
     };
